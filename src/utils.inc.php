@@ -10,3 +10,5 @@ include_once($GLOBALS['config']['cms']['base_path'] . 'src/includes/date_time.in
 include_once($GLOBALS['config']['cms']['base_path'] . 'src/includes/database_management.inc.php');
 include_once($GLOBALS['config']['cms']['base_path'] . 'src/includes/mail_management.inc.php');
 include_once($GLOBALS['config']['cms']['base_path'] . 'src/includes/mail.inc.php');
+
+init_session();
