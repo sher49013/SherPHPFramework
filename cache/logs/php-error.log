@@ -1,0 +1,42 @@
+[06-Jul-2021 13:57:59 UTC] PHP Notice:  Undefined variable: /home/contrive/Documents/open source/php framework/cron/ in /home/contrive/Documents/open source/php framework/cron.php on line 14
+[06-Jul-2021 13:58:21 UTC] PHP Notice:  Undefined variable: last_executed in /home/contrive/Documents/open source/php framework/cron.php on line 23
+[06-Jul-2021 13:58:21 UTC] PHP Notice:  Undefined index: db in /home/contrive/Documents/open source/php framework/cron.php on line 33
+[06-Jul-2021 13:58:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function Disconnect() on null in /home/contrive/Documents/open source/php framework/cron.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/contrive/Documents/open source/php framework/cron.php on line 33
+[06-Jul-2021 13:58:56 UTC] PHP Notice:  Undefined variable: last_executed in /home/contrive/Documents/open source/php framework/cron.php on line 23
+[06-Jul-2021 13:58:56 UTC] PHP Notice:  Undefined index: db in /home/contrive/Documents/open source/php framework/cron.php on line 31
+[06-Jul-2021 13:58:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function Disconnect() on null in /home/contrive/Documents/open source/php framework/cron.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/contrive/Documents/open source/php framework/cron.php on line 31
+[06-Jul-2021 13:59:18 UTC] PHP Notice:  Undefined index: db in /home/contrive/Documents/open source/php framework/cron.php on line 31
+[06-Jul-2021 13:59:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function Disconnect() on null in /home/contrive/Documents/open source/php framework/cron.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/contrive/Documents/open source/php framework/cron.php on line 31
+[06-Jul-2021 14:02:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db_execute() in /home/contrive/Documents/open source/php framework/deploy/migrate.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/contrive/Documents/open source/php framework/deploy/migrate.php on line 23
+[06-Jul-2021 14:03:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db_execute() in /home/contrive/Documents/open source/php framework/deploy/migrate.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/contrive/Documents/open source/php framework/deploy/migrate.php on line 23
+[06-Jul-2021 14:03:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db_execute() in /home/contrive/Documents/open source/php framework/deploy/migrate.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/contrive/Documents/open source/php framework/deploy/migrate.php on line 23
+[06-Jul-2021 14:03:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db_execute() in /home/contrive/Documents/open source/php framework/deploy/migrate.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/contrive/Documents/open source/php framework/deploy/migrate.php on line 23
+[07-Jul-2021 14:11:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function network_redirect() in /home/contrive/Documents/open source/php framework/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/contrive/Documents/open source/php framework/index.php on line 4
+[07-Jul-2021 14:15:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function network_redirect() in /home/contrive/Documents/open source/php framework/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/contrive/Documents/open source/php framework/index.php on line 4

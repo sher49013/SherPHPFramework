@@ -1,0 +1,31 @@
+{
+  "name": "center/point",
+  "description": "Center",
+  "type": "project",
+  "version": "1.0.0",
+  "require": {
+    "php": "^5.6 || ^7.0",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mysqli": "*",
+    "ext-openssl": "*",
+    "ext-iconv": "*",
+    "ext-mbstring": "*",
+    "ext-simplexml": "*",
+    "ext-zip": "*",
+    "monolog/monolog": "^1.0",
+    "adodb/adodb-php": "^5.20",
+    "phpmailer/phpmailer": "^6.1",
+    "phpgangsta/googleauthenticator": "dev-master",
+    "sgoettsch/monolog-rotating-file-handler": "^1.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "suggest": {
+    "ext-mbstring": "*"
+  },
+  "config": {
+    "vendor-dir": "src/includes/libs"
+  }
+}
