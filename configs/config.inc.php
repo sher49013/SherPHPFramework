@@ -66,6 +66,7 @@ $GLOBALS['config']['cms']['avail_lang'] = array('en_us', 'de_de');
 
 //Security Key For Production
 $GLOBALS['config']['system_key'] = '%security_key%';
+$GLOBALS['env']['is_windows'] = false;
 
 /**************************************************************************
  * include local conf to overwrite settings
