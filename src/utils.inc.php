@@ -34,3 +34,23 @@ function securityHashPassword($password)
 {
     return md5($GLOBALS['config']['system_key'] . $password);
 }
+
+/**
+ * This function is use for
+ */
+function doLogout()
+{
+    unset($_SESSION['user_data']['id']);
+    $_SESSION['user_data']['logged_in'] = false;
+}
+
+/**
+ * This function is use for get user list
+ * @return mixed
+ */
+function getUsers()
+{
+    $query = "select * from user where id != " .$_SESSION['user_data']['id'];
+    $users = db_get_all($query);
+    return $users;
+}
