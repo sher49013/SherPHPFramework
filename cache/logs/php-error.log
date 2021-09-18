@@ -1,0 +1,165 @@
+(2021-09-18 08:16:03) mysqli error: [1146: Table 'SherPHPFrameWork.core_sessions' doesn't exist] in EXECUTE("SELECT sessdata FROM core_sessions WHERE sesskey = /*! BINARY */ 'uqrbhco8riibqhnuods9oc40v4' AND expiry >= NOW()")
+[18-Sep-2021 08:16:03 UTC] PHP Fatal error:  mysqli error: [1146: Table 'SherPHPFrameWork.core_sessions' doesn't exist] in EXECUTE("SELECT sessdata FROM core_sessions WHERE sesskey = /*! BINARY */ 'uqrbhco8riibqhnuods9oc40v4' AND expiry >= NOW()")
+ in /home/contrive/Documents/open source/SherPHPFramework/src/includes/libs/adodb/adodb-php/adodb-errorhandler.inc.php on line 79
+[18-Sep-2021 08:16:03 UTC] PHP Warning:  session_write_close(): Cannot call session save handler in a recursive manner in Unknown on line 0
+[18-Sep-2021 08:16:03 UTC] PHP Warning:  session_write_close(): Failed to write session data using user defined save handler. (session.save_path: /var/lib/php/sessions) in Unknown on line 0
+(2021-09-18 08:18:15) mysqli error: [1231: Variable 'sql_mode' can't be set to the value of 'NO_AUTO_CREATE_USER'] in EXECUTE("SET sql_mode = 'NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION';")
+[18-Sep-2021 08:18:15 UTC] PHP Fatal error:  mysqli error: [1231: Variable 'sql_mode' can't be set to the value of 'NO_AUTO_CREATE_USER'] in EXECUTE("SET sql_mode = 'NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION';")
+ in /home/contrive/Documents/open source/SherPHPFramework/src/includes/libs/adodb/adodb-php/adodb-errorhandler.inc.php on line 79
+[18-Sep-2021 08:32:45 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:32:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:32:45 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:32:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:33:31 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:33:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:33:31 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:33:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:36:36 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:36:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:36:36 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:36:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:38:41 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:38:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:38:41 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:38:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:39:41 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:39:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:39:41 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:39:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:40:14 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:40:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:40:14 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:40:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:40:54 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:40:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:40:54 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:40:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:43:09 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:43:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:43:09 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:43:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:43:48 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:43:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:43:48 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:43:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:44:33 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:44:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:44:33 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:44:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:45:03 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:45:03 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:45:03 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:45:03 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:46:23 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:46:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 08:46:23 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 08:46:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 09:04:25 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 09:04:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 09:04:25 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 09:04:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 11:51:27 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 11:51:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 11:51:27 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 11:51:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 11:51:30 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 11:51:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 11:51:30 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 11:51:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 11:51:32 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 11:51:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 11:51:32 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 11:51:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 11:51:37 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 11:51:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 11:51:37 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 11:51:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 11:54:20 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 11:54:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 11:54:20 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 11:54:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 11:54:50 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 11:54:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 11:54:50 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 11:54:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 11:54:53 UTC] PHP Notice:  Undefined index: i18 in /home/contrive/Documents/open source/SherPHPFramework/api.php on line 43
+[18-Sep-2021 11:54:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/api.php on line 43
+[18-Sep-2021 11:54:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/api.php on line 43
+[18-Sep-2021 14:06:20 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:06:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:06:20 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:06:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:10:08 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:10:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:10:08 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:10:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:10:21 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:10:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:10:21 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:10:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:12:47 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:12:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:12:47 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:12:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:15:41 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:15:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:15:41 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:15:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+(2021-09-18 14:15:48) mysqli error: [1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com' at line 1] in EXECUTE("SELECT COUNT(*) FROM user WHERE email= test1207@gmail.com")
+[18-Sep-2021 14:15:48 UTC] PHP Fatal error:  mysqli error: [1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com' at line 1] in EXECUTE("SELECT COUNT(*) FROM user WHERE email= test1207@gmail.com")
+ in /home/contrive/Documents/open source/SherPHPFramework/src/includes/libs/adodb/adodb-php/adodb-errorhandler.inc.php on line 79
+(2021-09-18 14:16:08) mysqli error: [1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4] in EXECUTE("INSERT INTO user SET user_name = 'asda',
+                    email = 'test1207@gmail.com',
+                    password = 'asdas',
+                    created_at = time()")
+[18-Sep-2021 14:16:08 UTC] PHP Fatal error:  mysqli error: [1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4] in EXECUTE("INSERT INTO user SET user_name = 'asda',
+                    email = 'test1207@gmail.com',
+                    password = 'asdas',
+                    created_at = time()")
+ in /home/contrive/Documents/open source/SherPHPFramework/src/includes/libs/adodb/adodb-php/adodb-errorhandler.inc.php on line 79
+[18-Sep-2021 14:17:32 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:17:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:17:32 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:17:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:18:08 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:18:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:18:08 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:18:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:18:24 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:18:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:18:24 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:18:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:18:33 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:18:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:18:33 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:18:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:22:02 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:22:02 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:22:02 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:22:02 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:22:39 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:22:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:22:39 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:22:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:23:12 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:23:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:23:12 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:23:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:23:31 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:23:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:23:31 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:23:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:23:38 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:23:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:23:38 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:23:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:23:45 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:23:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:23:45 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:23:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:24:24 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:24:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 12
+[18-Sep-2021 14:24:24 UTC] PHP Notice:  Undefined index: cms in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:24:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/fs/design/sher/base/footer_login.inc.php on line 40
+[18-Sep-2021 14:24:33 UTC] PHP Notice:  Undefined index: i18 in /home/contrive/Documents/open source/SherPHPFramework/src/actions/login.inc.php on line 32
+[18-Sep-2021 14:24:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/contrive/Documents/open source/SherPHPFramework/src/actions/login.inc.php on line 32

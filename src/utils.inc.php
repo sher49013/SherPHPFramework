@@ -12,3 +12,25 @@ include_once($GLOBALS['config']['cms']['base_path'] . 'src/includes/mail_managem
 include_once($GLOBALS['config']['cms']['base_path'] . 'src/includes/mail.inc.php');
 
 init_session();
+
+/**
+ * This function is use for get element in array
+ * @param $array
+ * @param $key
+ * @param string $default
+ * @return mixed|string
+ */
+function arrayGet($array, $key, $default = '')
+{
+    return isset($array[$key]) ? db_escape_string($array[$key]) : db_escape_string($default);
+}
+
+/**
+ * This funciton is use for generate password
+ * @param $password
+ * @return string
+ */
+function securityHashPassword($password)
+{
+    return md5($GLOBALS['config']['system_key'] . $password);
+}

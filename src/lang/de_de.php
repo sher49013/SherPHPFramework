@@ -1,3 +1,3 @@
 <?php
-$GLOBALS['config']['cms']['title'] = 'Center';
+$GLOBALS['config']['cms']['title'] = 'Sher';
 
