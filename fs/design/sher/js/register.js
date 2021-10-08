@@ -31,4 +31,21 @@ $(document).ready(function() {
             }
         });
     });
+
+    $('.delete-item').click(function (){
+        var id = $(this).data('id');
+        $.ajax({
+            type: "POST",
+            url: '/api.php?action=delete_user',
+            dataType:"json",
+            data: {
+                'id': id
+            },
+            success: function(response){
+                if (response.success) {
+                    window.location.href = 'dashboard.php';
+                }
+            }
+        });
+    });
 });

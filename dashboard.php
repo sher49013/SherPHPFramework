@@ -11,12 +11,13 @@ $users = getUsers();
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Dashboard</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="<?php echo $GLOBALS['config']['cms']['design_path'].'js/register.js';?>"></script>
 </head>
 <body>
 
@@ -39,7 +40,7 @@ $users = getUsers();
                 <td><?php echo $user['id'];?></td>
                 <td><?php echo $user['email'];?></td>
                 <td><?php echo $user['user_name'];?></td>
-                <td>delete edit</td>
+                <td><label style="color: red" class="delete-item" data-id="<?php echo $user['id']; ?>">delete</label></td>
           </tr>
       <?php  } ?>
     </tbody>

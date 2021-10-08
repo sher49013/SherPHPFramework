@@ -20,17 +20,19 @@ if (!empty($email) && !empty($password)) {
     if (empty($userData)) {
         $output = array(
             'success' => false,
-            'message' => "Wrong Credentials"
+            'error_message' => "Wrong Credentials"
+        );
+    } else {
+        $_SESSION['user_data']['id'] = (int)$userData['id'];
+        $_SESSION['user_data']['logged_in'] = true;
+        $_SESSION['i18']['language'] = 'en_us';
+
+        $output = array(
+            'success' => true,
+            'message' => 'Login success',
+            'id' => (int)$userData['id']
         );
     }
-    $_SESSION['user_data']['id'] = (int)$userData['id'];
-    $_SESSION['user_data']['logged_in'] = true;
-    $_SESSION['i18']['language'] = 'en_us';
-
-    $output = array(
-        'success' => true,
-        'message' => 'Login success'
-    );
 } else {
     $output = array(
         'success'       => false,
