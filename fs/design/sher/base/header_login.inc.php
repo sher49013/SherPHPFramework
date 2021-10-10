@@ -28,6 +28,12 @@ header('Cache-Control: max-age=1, s-maxage=1, no-store, no-cache, post-check=0, 
 	<meta http-equiv="pragma" content="no-cache"/>
 	
 	<base href="<?php echo $GLOBALS['config']['cms']['site_url']; ?>">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    <link href="<?php echo $GLOBALS['config']['cms']['design_path']; ?>css/login.css?v=<?php echo $GLOBALS['config']['cms']['build_version']; ?>"
+          rel="stylesheet" type="text/css"/>
 
 </head>
 <body>

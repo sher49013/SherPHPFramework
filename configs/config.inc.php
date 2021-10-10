@@ -21,7 +21,7 @@ $GLOBALS['config']['cms']['base_path'] = BASE_PATH;
 $GLOBALS['config']['cms']['cache_folder'] = $GLOBALS['config']['cms']['base_path'].'cache/';
 $GLOBALS['config']['cms']['fs_data_path'] = $GLOBALS['config']['cms']['base_path'].'cache/data/';
 $GLOBALS['config']['cms']['logs'] = $GLOBALS['config']['cms']['cache_folder'].'logs/';
-$GLOBALS['config']['cms']['design_path'] = 'fs/design/center/';
+$GLOBALS['config']['cms']['design_path'] = 'fs/design/sher/';
 $GLOBALS['config']['cms']['theme_path'] = $GLOBALS['config']['cms']['design_path'].'theme/';
 $GLOBALS['config']['cms']['data_cache_limit'] = 5 * 60; // 5 mins
 $GLOBALS['config']['cms']['2fa_enabled'] = false;
@@ -66,6 +66,7 @@ $GLOBALS['config']['cms']['avail_lang'] = array('en_us', 'de_de');
 
 //Security Key For Production
 $GLOBALS['config']['system_key'] = '%security_key%';
+$GLOBALS['env']['is_windows'] = false;
 
 /**************************************************************************
  * include local conf to overwrite settings

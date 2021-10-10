@@ -2,7 +2,7 @@
 /**
  * Login
  *
- * @package       CENTER
+ * @package       SHER
  * @subpackage    actions
  *
  * @copyright     HAMAD ALI (ali sher)
@@ -29,12 +29,12 @@ include_once($GLOBALS['config']['cms']['design_path'].'base/header_login.inc.php
 /**
  * BEGIN - Include JS
  */
-//$GLOBALS['cms']['includeJS'][] = $GLOBALS['config']['cms']['design_path'].'js/login.js';
+$GLOBALS['cms']['includeJS'][] = $GLOBALS['config']['cms']['design_path'].'js/register.js';
 
 /**
  * END - Include JS
  */
-$GLOBALS['cms']['includeJS'][] = $GLOBALS['config']['cms']['design_path'].'js/register.js';
+
 /**
  * BEGIN - Business Logic
  */
@@ -56,11 +56,12 @@ $GLOBALS['cms']['includeJS'][] = $GLOBALS['config']['cms']['design_path'].'js/re
                 Sher FrameWork
             </div>
 
-            <!-- Login Form -->
-            <form action="javascript:void(0);" method="post" id="login">
+            <!-- Register Form -->
+            <form action="javascript:void(0);" method="post" id="register">
                 <input type="text" id="email" class="fadeIn second" name="email" placeholder="email">
+                <input type="text" id="user_name" class="fadeIn second" name="user_name" placeholder="user name">
                 <input type="password" id="password" class="fadeIn third" name="password" placeholder="password">
-                <input type="submit" id="login_submit" class="fadeIn fourth" value="Log In"><br>
+                <input type="submit" id="register_submit" class="fadeIn fourth" value="Register"><br>
                 <label id="error" class="error"></label>
             </form>
 
